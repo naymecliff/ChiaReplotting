@@ -4,7 +4,7 @@
 $folders = New-Object Collections.Generic.List[String]
 $folders.Add("\PlotsFolder") #repeat this line for each Folder
 $drive = "C:" #drive to check
-$delaySeconds = 10 #delay for checking in seconds
+$delaySeconds = 1800 #delay for checking in seconds
 $mustBeOlderThan = "14.07.2021"  #date your first pooling plots were written on this drive (or ever). check the format to match your local format
 $minGBLeft = 102 # space that must be left for the next plot to be copied successfully
 
